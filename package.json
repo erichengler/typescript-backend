@@ -1,0 +1,23 @@
+{
+  "name": "typescript-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.7",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.2"
+  }
+}
